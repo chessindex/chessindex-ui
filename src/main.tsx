@@ -9,7 +9,6 @@ import {
 import Layout from './pages/Layout';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
-import Tournaments from './pages/Tournaments';
 
 const queryClient = new QueryClient()
 
@@ -20,7 +19,6 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="tournaments" element={<Tournaments />} />
             <Route path="profile" element={<Profile />} />
           </Route>
         </Routes>

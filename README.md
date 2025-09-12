@@ -1,1 +1,1 @@
-ChessMate UI
+ChessRegistry UI
