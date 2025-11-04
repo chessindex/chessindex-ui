@@ -1,7 +1,7 @@
 export default function Players() {
   return (
     <div id="players-page">
-      Players Page Content
+      Players Page Content - Placeholder
     </div>
   )
 }
